@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3DB38F5D1D65F95B002979DF"
-               BuildableName = "swift-test.app"
-               BlueprintName = "swift-test"
-               ReferencedContainer = "container:swift-test.xcodeproj">
+               BuildableName = "swift-todo.app"
+               BlueprintName = "swift-todo"
+               ReferencedContainer = "container:swift-todo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3DB38F711D65F95B002979DF"
-               BuildableName = "swift-testTests.xctest"
-               BlueprintName = "swift-testTests"
-               ReferencedContainer = "container:swift-test.xcodeproj">
+               BuildableName = "swift-todoTests.xctest"
+               BlueprintName = "swift-todoTests"
+               ReferencedContainer = "container:swift-todo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3DB38F7C1D65F95B002979DF"
-               BuildableName = "swift-testUITests.xctest"
-               BlueprintName = "swift-testUITests"
-               ReferencedContainer = "container:swift-test.xcodeproj">
+               BuildableName = "swift-todoUITests.xctest"
+               BlueprintName = "swift-todoUITests"
+               ReferencedContainer = "container:swift-todo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3DB38F5D1D65F95B002979DF"
-            BuildableName = "swift-test.app"
-            BlueprintName = "swift-test"
-            ReferencedContainer = "container:swift-test.xcodeproj">
+            BuildableName = "swift-todo.app"
+            BlueprintName = "swift-todo"
+            ReferencedContainer = "container:swift-todo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3DB38F5D1D65F95B002979DF"
-            BuildableName = "swift-test.app"
-            BlueprintName = "swift-test"
-            ReferencedContainer = "container:swift-test.xcodeproj">
+            BuildableName = "swift-todo.app"
+            BlueprintName = "swift-todo"
+            ReferencedContainer = "container:swift-todo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3DB38F5D1D65F95B002979DF"
-            BuildableName = "swift-test.app"
-            BlueprintName = "swift-test"
-            ReferencedContainer = "container:swift-test.xcodeproj">
+            BuildableName = "swift-todo.app"
+            BlueprintName = "swift-todo"
+            ReferencedContainer = "container:swift-todo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:swift-test.xcodeproj">
+      location = "self:/Users/mini/Documents/swift-test/swift-todo.xcodeproj">
    </FileRef>
 </Workspace>

@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3DB38F5E1D65F95B002979DF /* swift-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB38F5E1D65F95B002979DF /* swift-todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-todo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB38F611D65F95B002979DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DB38F631D65F95B002979DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3DB38F661D65F95B002979DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DB38F681D65F95B002979DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DB38F6B1D65F95B002979DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DB38F6D1D65F95B002979DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3DB38F721D65F95B002979DF /* swift-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB38F721D65F95B002979DF /* swift-todoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-todoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB38F761D65F95B002979DF /* swift_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_testTests.swift; sourceTree = "<group>"; };
 		3DB38F781D65F95B002979DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3DB38F7D1D65F95B002979DF /* swift-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB38F7D1D65F95B002979DF /* swift-todoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-todoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB38F811D65F95B002979DF /* swift_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_testUITests.swift; sourceTree = "<group>"; };
 		3DB38F831D65F95B002979DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,7 @@
 		3DB38F551D65F95B002979DF = {
 			isa = PBXGroup;
 			children = (
-				3DB38F601D65F95B002979DF /* swift-test */,
+				3DB38F601D65F95B002979DF /* swift-todo */,
 				3DB38F751D65F95B002979DF /* swift-testTests */,
 				3DB38F801D65F95B002979DF /* swift-testUITests */,
 				3DB38F5F1D65F95B002979DF /* Products */,
@@ -87,14 +87,14 @@
 		3DB38F5F1D65F95B002979DF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3DB38F5E1D65F95B002979DF /* swift-test.app */,
-				3DB38F721D65F95B002979DF /* swift-testTests.xctest */,
-				3DB38F7D1D65F95B002979DF /* swift-testUITests.xctest */,
+				3DB38F5E1D65F95B002979DF /* swift-todo.app */,
+				3DB38F721D65F95B002979DF /* swift-todoTests.xctest */,
+				3DB38F7D1D65F95B002979DF /* swift-todoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3DB38F601D65F95B002979DF /* swift-test */ = {
+		3DB38F601D65F95B002979DF /* swift-todo */ = {
 			isa = PBXGroup;
 			children = (
 				3DB38F611D65F95B002979DF /* AppDelegate.swift */,
@@ -104,6 +104,7 @@
 				3DB38F6A1D65F95B002979DF /* LaunchScreen.storyboard */,
 				3DB38F6D1D65F95B002979DF /* Info.plist */,
 			);
+			name = "swift-todo";
 			path = "swift-test";
 			sourceTree = "<group>";
 		};
@@ -128,9 +129,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3DB38F5D1D65F95B002979DF /* swift-test */ = {
+		3DB38F5D1D65F95B002979DF /* swift-todo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DB38F861D65F95B002979DF /* Build configuration list for PBXNativeTarget "swift-test" */;
+			buildConfigurationList = 3DB38F861D65F95B002979DF /* Build configuration list for PBXNativeTarget "swift-todo" */;
 			buildPhases = (
 				3DB38F5A1D65F95B002979DF /* Sources */,
 				3DB38F5B1D65F95B002979DF /* Frameworks */,
@@ -140,14 +141,14 @@
 			);
 			dependencies = (
 			);
-			name = "swift-test";
+			name = "swift-todo";
 			productName = "swift-test";
-			productReference = 3DB38F5E1D65F95B002979DF /* swift-test.app */;
+			productReference = 3DB38F5E1D65F95B002979DF /* swift-todo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3DB38F711D65F95B002979DF /* swift-testTests */ = {
+		3DB38F711D65F95B002979DF /* swift-todoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DB38F891D65F95B002979DF /* Build configuration list for PBXNativeTarget "swift-testTests" */;
+			buildConfigurationList = 3DB38F891D65F95B002979DF /* Build configuration list for PBXNativeTarget "swift-todoTests" */;
 			buildPhases = (
 				3DB38F6E1D65F95B002979DF /* Sources */,
 				3DB38F6F1D65F95B002979DF /* Frameworks */,
@@ -158,14 +159,14 @@
 			dependencies = (
 				3DB38F741D65F95B002979DF /* PBXTargetDependency */,
 			);
-			name = "swift-testTests";
+			name = "swift-todoTests";
 			productName = "swift-testTests";
-			productReference = 3DB38F721D65F95B002979DF /* swift-testTests.xctest */;
+			productReference = 3DB38F721D65F95B002979DF /* swift-todoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3DB38F7C1D65F95B002979DF /* swift-testUITests */ = {
+		3DB38F7C1D65F95B002979DF /* swift-todoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DB38F8C1D65F95B002979DF /* Build configuration list for PBXNativeTarget "swift-testUITests" */;
+			buildConfigurationList = 3DB38F8C1D65F95B002979DF /* Build configuration list for PBXNativeTarget "swift-todoUITests" */;
 			buildPhases = (
 				3DB38F791D65F95B002979DF /* Sources */,
 				3DB38F7A1D65F95B002979DF /* Frameworks */,
@@ -176,9 +177,9 @@
 			dependencies = (
 				3DB38F7F1D65F95B002979DF /* PBXTargetDependency */,
 			);
-			name = "swift-testUITests";
+			name = "swift-todoUITests";
 			productName = "swift-testUITests";
-			productReference = 3DB38F7D1D65F95B002979DF /* swift-testUITests.xctest */;
+			productReference = 3DB38F7D1D65F95B002979DF /* swift-todoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3DB38F591D65F95B002979DF /* Build configuration list for PBXProject "swift-test" */;
+			buildConfigurationList = 3DB38F591D65F95B002979DF /* Build configuration list for PBXProject "swift-todo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +221,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3DB38F5D1D65F95B002979DF /* swift-test */,
-				3DB38F711D65F95B002979DF /* swift-testTests */,
-				3DB38F7C1D65F95B002979DF /* swift-testUITests */,
+				3DB38F5D1D65F95B002979DF /* swift-todo */,
+				3DB38F711D65F95B002979DF /* swift-todoTests */,
+				3DB38F7C1D65F95B002979DF /* swift-todoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		3DB38F741D65F95B002979DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3DB38F5D1D65F95B002979DF /* swift-test */;
+			target = 3DB38F5D1D65F95B002979DF /* swift-todo */;
 			targetProxy = 3DB38F731D65F95B002979DF /* PBXContainerItemProxy */;
 		};
 		3DB38F7F1D65F95B002979DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3DB38F5D1D65F95B002979DF /* swift-test */;
+			target = 3DB38F5D1D65F95B002979DF /* swift-todo */;
 			targetProxy = 3DB38F7E1D65F95B002979DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -442,7 +443,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-.swift-testTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-test.app/swift-test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-todo.app/swift-todo";
 			};
 			name = Debug;
 		};
@@ -456,7 +457,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-.swift-testTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-test.app/swift-test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-todo.app/swift-todo";
 			};
 			name = Release;
 		};
@@ -489,7 +490,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3DB38F591D65F95B002979DF /* Build configuration list for PBXProject "swift-test" */ = {
+		3DB38F591D65F95B002979DF /* Build configuration list for PBXProject "swift-todo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DB38F841D65F95B002979DF /* Debug */,
@@ -498,29 +499,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DB38F861D65F95B002979DF /* Build configuration list for PBXNativeTarget "swift-test" */ = {
+		3DB38F861D65F95B002979DF /* Build configuration list for PBXNativeTarget "swift-todo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DB38F871D65F95B002979DF /* Debug */,
 				3DB38F881D65F95B002979DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3DB38F891D65F95B002979DF /* Build configuration list for PBXNativeTarget "swift-testTests" */ = {
+		3DB38F891D65F95B002979DF /* Build configuration list for PBXNativeTarget "swift-todoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DB38F8A1D65F95B002979DF /* Debug */,
 				3DB38F8B1D65F95B002979DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3DB38F8C1D65F95B002979DF /* Build configuration list for PBXNativeTarget "swift-testUITests" */ = {
+		3DB38F8C1D65F95B002979DF /* Build configuration list for PBXNativeTarget "swift-todoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DB38F8D1D65F95B002979DF /* Debug */,
 				3DB38F8E1D65F95B002979DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
